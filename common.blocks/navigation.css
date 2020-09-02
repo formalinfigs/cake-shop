@@ -1,0 +1,29 @@
+.navigation {
+  text-align: left;
+
+  background-color: var(--header-background);
+}
+
+.navigation__item {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.navigation__link {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #2d2829;
+
+  font: normal 13px 'Arsenal', sans-serif;
+}
+
+.navigation__link:hover {
+  color: #f50049;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation__item {
+    margin-bottom: 0;
+  }
+}
