@@ -7,63 +7,28 @@
   justify-content: space-between;
 
   width: 100%;
-  padding: 10px 20px;
+  padding: 20px 20px;
 
   text-align: center;
 
   background-color: var(--header-background);
 }
 
-.header__navigation {
-  position: absolute;
-  top: 100%;
-  left: 0;
-
-  width: 100%;
-
-  transition: transform 350ms ease-in-out;
-  transform: scale(1, 0);
-  transform-origin: top;
-}
-
-.header__logo {
-  font: bold 16px 'Playfair Display', serif;
-}
-
-.header__navigation-toggle {
-  display: none;
-}
-
 .header__navigation-toggle-label {
-  display: flex;
-  align-items: center;
-
-  height: 100%;
-  margin-left: 1em;
-
-  cursor: pointer;
+  display: none;
 }
 
 .header__link {
-  transition: opacity 150ms ease-in-out;
-
-  opacity: 0;
-}
-
-.header__navigation-toggle:checked ~ .header__navigation {
-  transform: scale(1, 1);
-
   opacity: 1;
 }
 
-.header__navigation-toggle:checked ~ .header__navigation .header__link {
-  transition: opacity 250ms ease-in-out 250ms;
-
-  opacity: 1;
+.header__list {
+  display: flex;
+  align-items: center;
 }
 
 .header__phone-number {
-  display: none;
+  display: block;
 
   margin-left: auto;
 
@@ -74,30 +39,71 @@
   font: bold 15px 'Arsenal', sans-serif;
 }
 
-@media only screen and (min-width: 361px) and (max-width: 768px) {
-  .header__phone-number {
-    display: block;
-  }
+.header__logo {
+  font: bold 16px 'Playfair Display', serif;
 }
 
-@media only screen and (min-width: 769px) {
-  .header__navigation-toggle-label {
-    display: none;
-  }
+.header__navigation-toggle {
+  display: none;
+}
 
-  .header__link {
-    opacity: 1;
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 10px 20px;
+
+    background-color: white;
   }
 
   .header__navigation {
-    all: unset;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+
+    transition: transform 350ms ease-in-out;
+    transform: scale(1, 0);
+    transform-origin: top;
+  }
+
+  .header__navigation-toggle-label {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    margin-left: 1em;
+
+    cursor: pointer;
   }
 
   .header__list {
-    display: flex;
-    align-items: center;
+    display: block;
   }
 
+  .header__link {
+    transition: opacity 150ms ease-in-out;
+
+    opacity: 0;
+  }
+
+  .header__navigation-toggle:checked ~ .header__navigation {
+    transform: scale(1, 1);
+
+    opacity: 1;
+  }
+
+  .header__navigation-toggle:checked ~ .header__navigation .header__link {
+    transition: opacity 250ms ease-in-out 250ms;
+
+    opacity: 1;
+  }
+
+  .header__phone-number {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
   .header__phone-number {
     display: block;
   }
