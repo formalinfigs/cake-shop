@@ -4,11 +4,16 @@
 @import url('./reset.css');
 
 @import url('./icomoon.css');
+
+@import url('../common.blocks/benefit.css');
+@import url('../common.blocks/common.css');
 @import url('../common.blocks/header.css');
 @import url('../common.blocks/navigation.css');
+@import url('../common.blocks/choose-cake.css');
 
 :root {
   --header-background: #fbebea;
+  --primary-color: #f50049;
 }
 
 *,

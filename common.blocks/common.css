@@ -1,0 +1,31 @@
+.button {
+  padding: 1em 3em;
+
+  transition: 250ms;
+  text-transform: uppercase;
+
+  color: white;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+
+  font-family: 'Arsenal', sans-serif;
+  font-size: 13px;
+}
+
+.button:hover {
+  background-color: #be0039;
+}
+
+.text_dark {
+  color: #32313d;
+}
+
+.text_handwritten {
+    font-family: 'Caveat', sans-serif;
+    font-weight: 300;
+}
+
+.text_typography {
+  font-family: 'Playfair Display', serif;
+}

@@ -1,0 +1,49 @@
+.choose-cake {
+  width: 100%;
+  min-height: calc(100vh - 61px);
+  padding: 0 30px;
+
+  color: #2e2829;
+  background-image: url('../images/desktop/img2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: 'Arsenal', sans-serif;
+}
+
+.choose-cake__wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  padding-top: 80px;
+}
+
+.choose-cake__header {
+  width: 320px;
+  margin-bottom: 30px;
+
+  font-size: 78px;
+}
+
+.choose-cake__subheader {
+  margin-bottom: 70px;
+
+  font-size: 40px;
+}
+
+.choose-cake__benefits {
+  display: flex;
+}
+
+.choose-cake__benefits-item {
+  max-width: 44%;
+}
+
+.choose-cake__benefits-item:first-child {
+  margin-right: 20px;
+}
+
+.choose-cake__button {
+  margin-bottom: 100px;
+}
