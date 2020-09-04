@@ -1,7 +1,7 @@
 .navigation {
   text-align: left;
 
-  background-color: var(--header-background);
+  background-color: var(--primary-background);
 }
 
 .navigation__item {

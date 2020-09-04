@@ -1,0 +1,44 @@
+.assortment {
+  background-color: var(--primary-background);
+}
+
+.assortment__grid {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.assortment__image {
+  width: 100%;
+}
+
+.assortment__grid-classic {
+  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.assortment__grid-muss {
+  grid-column-end: 4;
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.assortment__grid-wedding {
+  grid-column-end: 4;
+  grid-column-start: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.assortment__grid-kids {
+  grid-column-end: 4;
+  grid-column-start: 2;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+

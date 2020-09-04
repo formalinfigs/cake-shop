@@ -4,9 +4,11 @@
   padding: 0 30px;
 
   color: #2e2829;
+  background-color: var(--primary-background);
   background-image: url('../images/desktop/img2.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: right;
+  background-size: contain;
 
   font-family: 'Arsenal', sans-serif;
 }

@@ -10,9 +10,11 @@
 @import url('../common.blocks/header.css');
 @import url('../common.blocks/navigation.css');
 @import url('../common.blocks/choose-cake.css');
+@import url('../common.blocks/assortment.css');
+@import url('../common.blocks/order.css');
 
 :root {
-  --header-background: #fbebea;
+  --primary-background: #fbebea;
   --primary-color: #f50049;
 }
 
