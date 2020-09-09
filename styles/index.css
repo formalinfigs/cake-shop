@@ -13,6 +13,7 @@
 @import url('../common.blocks/assortment.css');
 @import url('../common.blocks/order.css');
 @import url('../common.blocks/contacts.css');
+@import url('../common.blocks/footer.css');
 
 :root {
   --primary-background: #fbebea;

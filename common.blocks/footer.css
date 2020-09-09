@@ -1,0 +1,22 @@
+.footer {
+  padding: 10px 30px;
+
+  background-color: var(--footer-background);
+}
+
+.footer__section {
+  display: flex;
+
+  width: 100%;
+}
+
+.footer__navigation {
+  width: 100%;
+
+  background-color: var(--footer-background);
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+}
