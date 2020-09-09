@@ -1,0 +1,35 @@
+.contacts {
+  min-height: 100vh;
+
+  background-color: var(--primary-background);
+  background-image: url('../images/desktop/strawberries.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: contain;
+}
+
+.contacts__header {
+  font-size: 40px;
+}
+
+.contacts__subheader {
+  font-size: 35px;
+}
+
+.contacts__social-network-button {
+  padding: 0.5em;
+
+  text-decoration: none;
+
+  border-radius: 50%;
+  background-color: white;
+
+  font-size: 2em;
+
+  appearance: button;
+}
+
+.contacts__social-network-button-icon {
+  color: var(--primary-color);
+}

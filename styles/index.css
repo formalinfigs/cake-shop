@@ -12,10 +12,12 @@
 @import url('../common.blocks/choose-cake.css');
 @import url('../common.blocks/assortment.css');
 @import url('../common.blocks/order.css');
+@import url('../common.blocks/contacts.css');
 
 :root {
   --primary-background: #fbebea;
   --primary-color: #f50049;
+  --footer-background: #e8e8e8;
 }
 
 *,
