@@ -13,6 +13,23 @@
   font-size: 13px;
 }
 
+.button-link {
+  padding: 1em 3em;
+
+  cursor: pointer;
+  transition: 250ms;
+  text-transform: uppercase;
+
+  color: black;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background-color: transparent;
+
+  font-family: 'Arsenal', sans-serif;
+  font-size: 13px;
+}
+
 .button:hover {
   background-color: #be0039;
 }
@@ -22,10 +39,22 @@
 }
 
 .text_handwritten {
-    font-family: 'Caveat', sans-serif;
-    font-weight: 300;
+  font-family: 'Caveat', sans-serif;
+  font-weight: 300;
 }
 
 .text_typography {
   font-family: 'Playfair Display', serif;
+}
+
+.section {
+  
+}
+
+.section_centered {
+  max-width: 1220px;
+}
+
+.section-title {
+  font-size: 40px;
 }

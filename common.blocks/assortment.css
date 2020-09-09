@@ -1,16 +1,44 @@
 .assortment {
+  width: 100%;
+
   background-color: var(--primary-background);
+
+  font-family: 'Arsenal', sans-serif;
+}
+
+.assortment__title {
+  margin-bottom: 40px;
 }
 
 .assortment__grid {
   display: grid;
+  justify-content: center;
 
+  margin: 10px auto 30px;
+
+  background-color: var(--primary-background);
+
+  grid-gap: 50px;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.assortment__grid-item {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  min-height: 300px;
+  padding: 20px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .assortment__image {
   width: 100%;
+  height: auto;
 }
 
 .assortment__grid-classic {
@@ -41,4 +69,31 @@
   grid-row-end: 5;
 }
 
+.assortment__type {
+  color: #2d2829;
 
+  font-weight: 500;
+}
+
+.assortment__count-of-type {
+  color: #666363;
+
+  font-weight: 300;
+}
+
+.assortment__more-button {
+  align-self: flex-end;
+
+  margin-top: auto;
+  padding: 0;
+}
+
+.assortment__more-button:hover > .assortment__more-icon {
+  margin-left: 10px;
+}
+
+.assortment__more-icon {
+  transition: margin-left 500ms;
+
+  color: #666363;
+}

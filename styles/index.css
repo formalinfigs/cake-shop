@@ -28,7 +28,13 @@
 }
 
 body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
   height: 200vh;
+
+  background-color: var(--primary-background);
 }
 
 /* font-family: 'Caveat', cursive;
@@ -37,8 +43,7 @@ font-family: 'Pacifico', cursive;
 font-family: 'Arsenal', sans-serif;
 font-family: 'Playfair Display', serif; */
 
-
- /* Mobile
+/* Mobile
 only screen and (min-width: 480px)
 
  Tablet
