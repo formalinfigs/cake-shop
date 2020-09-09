@@ -1,4 +1,9 @@
 .order {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  width: 100%;
   min-height: 80vh;
 
   color: white;
@@ -6,6 +11,13 @@
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
+}
+
+.order__content-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 500px;
 }
 
 .order__header {
