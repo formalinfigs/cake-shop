@@ -8,6 +8,7 @@
 @import url('../common.blocks/benefit.css');
 @import url('../common.blocks/common.css');
 @import url('../common.blocks/header.css');
+@import url('../common.blocks//main.css');
 @import url('../common.blocks/navigation.css');
 @import url('../common.blocks/choose-cake.css');
 @import url('../common.blocks/assortment.css');
@@ -27,12 +28,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   align-items: center;
   flex-direction: column;
-
-  height: 200vh;
 
   background-color: var(--primary-background);
 }
