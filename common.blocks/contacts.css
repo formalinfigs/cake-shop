@@ -1,5 +1,6 @@
 .contacts {
   min-height: 100vh;
+  padding: 70px 50px;
 
   background-color: var(--primary-background);
   background-image: url('../images/desktop/strawberries.png');
@@ -8,15 +9,24 @@
   background-position-y: bottom;
   background-size: contain;
 
- 
+  font-family: 'Arsenal', sans-serif;
+  font-size: 20px;
 }
 
 .contacts__header {
+  margin-bottom: 40px;
+
   font-size: 40px;
 }
 
 .contacts__subheader {
+  margin-bottom: 30px;
+
   font-size: 35px;
+}
+
+.contacts__text {
+  margin-bottom: 30px;
 }
 
 .contacts__social-network-button {
@@ -32,6 +42,56 @@
   appearance: button;
 }
 
+.contacts__social-network-button:first-of-type {
+  margin-right: 30px;
+}
+
 .contacts__social-network-button-icon {
   color: var(--primary-color);
+}
+
+.contacts__wrapper {
+  display: flex;
+}
+
+.contacts__feedback {
+  margin-right: 60px;
+}
+
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__form-input {
+  margin-bottom: 20px;
+  padding: 20px 0 3px 0;
+
+  border: none;
+  border-bottom: 1px solid rgba(143, 143, 143, 0.678);
+  outline: none;
+  background-color: transparent;
+
+  font-family: 'Arsenal', sans-serif;
+  font-size: 14px;
+}
+
+.contacts__form-input::placeholder {
+  color: rgb(143, 143, 143);
+}
+
+.contacts__form-submit {
+  align-self: flex-start;
+
+  margin-top: 20px;
+}
+
+.contacts__link {
+  text-decoration: none;
+
+  color: currentColor;
+}
+
+.contacts__phone {
+  display: block;
 }

@@ -45,7 +45,7 @@
         </div>
       </section>
       <section class="section section_centered assortment" id="assortment">
-        <h3 class="section-title text text_typography assortment__title" >Наши торты</h3>
+        <h3 class="section-title text text_typography assortment__title">Наши торты</h3>
         <div class="assortment__grid">
           <div
             class="assortment__grid-item assortment__grid-classic"
@@ -143,25 +143,29 @@
       <section class="section contacts" id="contacts">
         <h3 class="contacts__header text text_typography">Контакты</h3>
         <h4 class="contacts__subheader text text_handwritten">Остались вопросы?</h4>
-        <div>
-          <p>Заполните форму ниже и наш кондитер свяжется с Вами</p>
-          <form>
-            <input type="text" placeholder="Ваше имя" />
-            <input type="email" placeholder="Email адрес" />
-            <input type="textarea" placeholder="Ваш вопрос" />
-            <button class="button">Отправить</button>
-          </form>
-        </div>
-        <div>
-          <p>Или позвоните по телефону</p>
-          <a href="tel:+79068999296">+7 906 899 92 96</a>
-          <p>Наша почта: <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a></p>
-          <div>
-            <p>Мы в соц. сетях</p>
-            <a href="https://instagram.com" target="_blank" class="contacts__social-network-button">
+        <div class="contacts__wrapper">
+          <div class="contacts__feedback">
+            <p class="contacts__text">Заполните форму ниже и наш кондитер свяжется с Вами</p>
+            <form class="contacts__form">
+              <input class="contacts__form-input" type="text" placeholder="Ваше имя" />
+              <input class="contacts__form-input" type="email" placeholder="Email адрес" />
+              <input class="contacts__form-input" type="textarea" placeholder="Ваш вопрос" />
+              <button class="button contacts__form-submit">Отправить</button>
+            </form>
+          </div>
+          <div class="contacts__network">
+            <p class="contacts__text">
+              Или позвоните по телефону:
+              <a class="contacts__link contacts__phone" href="tel:+79068999296">+7 906 899 92 96</a>
+            </p>
+            <p class="contacts__text">
+              Наша почта: <a class="contacts__link" href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a>
+            </p>
+            <p class="contacts__text">Мы в соц. сетях:</p>
+            <a class="contacts__social-network-button" href="https://instagram.com" target="_blank">
               <span class="contacts__social-network-button-icon icon icon-instagram"></span>
             </a>
-            <a href="https://vk.com" target="_blank" class="contacts__social-network-button">
+            <a class="contacts__social-network-button" href="https://vk.com" target="_blank">
               <span class="contacts__social-network-button-icon icon icon-vk"></span>
             </a>
           </div>
