@@ -1,5 +1,6 @@
 .assortment {
   width: 100%;
+  padding: 0 30px;
 
   background-color: var(--primary-background);
 
@@ -18,7 +19,7 @@
 
   background-color: var(--primary-background);
 
-  grid-gap: 50px;
+  grid-gap: 20px;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -31,9 +32,10 @@
   min-height: 300px;
   padding: 20px;
 
+  background-color: white;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .assortment__image {
