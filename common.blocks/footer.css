@@ -1,4 +1,8 @@
 .footer {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+
   padding: 20px 30px;
 
   text-align: center;
@@ -6,21 +10,23 @@
   background-color: var(--footer-background);
 }
 
-.footer__section {
-  display: flex;
-  align-items: center;
-
-  width: 100%;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-
-  border-bottom: 1px solid #8f8f8f;
-}
-
 .footer__navigation {
-  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  width: 80%;
 
   background-color: var(--footer-background);
+}
+
+.footer__divider {
+  width: 100%;
+  height: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  border: 0;
+  border-top: 1px solid #cccccc;
 }
 
 .footer__list {
@@ -29,6 +35,10 @@
 }
 
 .footer__logo {
+  width: 10%;
+
+  text-align: start;
+
   font-size: 28px;
   font-weight: bold;
 }
@@ -39,8 +49,14 @@
   font-size: 16px;
 }
 
+.footer__social-network {
+  width: 10%;
+
+  text-align: end;
+}
+
 .footer__social-network-button {
-  margin: 5px;
+  margin-left: 5px;
 
   text-decoration: none;
 
@@ -51,13 +67,77 @@
   appearance: button;
 }
 
-.footer__social-network-button:hover, .footer__social-network-button:focus {
+.footer__social-network-button:hover,
+.footer__social-network-button:focus {
   color: var(--primary-color);
 }
 
 .footer__copyright {
+  flex-basis: 100%;
+
   color: #8f8f8f;
 
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    color: white;
+  }
+
+  .footer__navigation {
+    width: 90%;
+  }
+
+  .footer__social-network {
+    order: 4;
+  }
+
+  .footer__copyright {
+    flex-basis: auto;
+    order: 3;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer__link {
+    color: white;
+
+    font-size: 12px;
+  }
+
+  .footer__social-network-button:hover {
+    color: white;
+  }
+
+  .footer__logo {
+    font-size: 18px;
+  }
+
+  .footer__link:hover {
+    color: whitesmoke;
+  }
+
+  .footer__social-network-button {
+    color: #b6b6b6;
+  }
+
+  .footer__copyright {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+
+    text-align: end;
+
+    color: #b6b6b6;
+
+    font-size: 12px;
+  }
+
+  .footer__social-network {
+    width: 50%;
+
+    text-align: start;
+  }
 }

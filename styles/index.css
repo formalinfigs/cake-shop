@@ -24,6 +24,12 @@
   --max-content-width: 1280px;
 }
 
+@media only screen and (max-width: 768px) {
+  :root {
+    --footer-background:  #898989;
+  }
+}
+
 *,
 *::before,
 *::after {
