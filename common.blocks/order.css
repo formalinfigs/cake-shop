@@ -60,3 +60,42 @@
 
   font-size: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+  .order {
+    min-height: auto;
+    padding: 50px;
+
+    background-color: #e8383e;
+    background-image: url('../images/tablet/present.png');
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  .order__content-wrapper {
+    max-width: 300px;
+  }
+
+  .order__header {
+    margin-bottom: 30px;
+
+    font-size: 28px;
+  }
+
+  .order__instruction-step {
+    min-width: 30px;
+    margin-right: 10px;
+
+    font-size: 36px;
+  }
+
+  .order__instruction-header {
+    margin-top: 10px;
+
+    font-size: 15px;
+  }
+  
+  .order__instruction-info {
+    font-size: 14px;
+  }
+}
