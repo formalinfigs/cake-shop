@@ -18,6 +18,14 @@
   display: none;
 }
 
+.header__navigation-toggle-label:hover {
+  color: var(--primary-color);
+}
+
+.header__navigation-item {
+  margin-left: 50px;
+}
+
 .header__link {
   opacity: 1;
 }
@@ -39,6 +47,10 @@
   font: bold 15px 'Arsenal', sans-serif;
 }
 
+.header__phone-number:hover {
+  color: var(--primary-color);
+}
+
 .header__logo {
   font: bold 16px 'Playfair Display', serif;
 }
@@ -49,14 +61,14 @@
 
 @media only screen and (max-width: 768px) {
   .header {
-    padding: 10px 20px;
+    padding: 20px 50px;
 
     background-color: white;
   }
 
   .header__navigation {
     position: absolute;
-    top: 100%;
+    top: 99%;
     left: 0;
 
     width: 100%;
@@ -110,5 +122,9 @@
 @media only screen and (min-width: 321px) and (max-width: 768px) {
   .header__phone-number {
     display: block;
+  }
+
+  .header__navigation-item {
+    margin: 0 50px 15px;
   }
 }

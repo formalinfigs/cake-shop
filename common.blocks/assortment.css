@@ -102,3 +102,31 @@
 
   color: #666363;
 }
+
+@media only screen and (max-width: 768px) {
+  .assortment {
+    padding: 0 20px;
+  }
+  
+  .assortment__grid-item {
+    min-height: 180px;
+  }
+
+  .assortment__type {
+    font-size: 14px;
+  }
+
+  .assortment__count-of-type {
+    font-size: 12px;
+  }
+
+  .assortment__more-button {
+    text-transform: capitalize;
+
+    font-size: 12px;
+  }
+
+  .assortment__more-icon {
+    display: none;
+  }
+}

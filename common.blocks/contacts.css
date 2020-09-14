@@ -109,6 +109,10 @@
   display: block;
 }
 
+.contacts__link:hover, .contacts__phone:hover {
+  color: var(--primary-color);
+}
+
 @media only screen and (max-width: 768px) {
   .contacts {
     min-height: auto;

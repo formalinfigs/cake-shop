@@ -3,10 +3,10 @@
 
   background-color: var(--primary-background);
 }
-
+/* 
 .navigation__item {
   margin-left: 1em;
-}
+} */
 
 .navigation__link {
   text-decoration: none;

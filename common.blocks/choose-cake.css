@@ -26,6 +26,7 @@
   margin-bottom: 30px;
 
   font-size: 78px;
+  font-weight: bold;
 }
 
 .choose-cake__subheader {
@@ -50,4 +51,33 @@
   margin-bottom: 100px;
 
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .choose-cake {
+    min-height: auto;
+    margin-bottom: 120px;
+    padding: 115px 50px 0 50px;
+
+    background-position: revert;
+  }
+
+  .choose-cake__header {
+    width: 270px;
+
+    font-size: 60px;
+  }
+
+  .choose-cake__subheader {
+    margin-bottom: 60px;
+
+    font-size: 36px;
+  }
+
+  .choose-cake__button {
+    margin-bottom: 150px;
+    padding: 20px 73px;
+
+    border-radius: 30px;
+  }
 }
