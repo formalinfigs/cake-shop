@@ -56,8 +56,8 @@
 
 .assortment__type {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 35px;
+  left: 50px;
 
   color: #2d2829;
 
@@ -68,7 +68,7 @@
 .assortment__count-of-type {
   position: absolute;
   top: 70px;
-  left: 40px;
+  left: 50px;
 
   color: #666363;
 
