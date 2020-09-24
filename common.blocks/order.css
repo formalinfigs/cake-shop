@@ -24,7 +24,6 @@
 .order__header {
   margin-bottom: 40px;
 
-  font-size: 50px;
   font-weight: bold;
 }
 
@@ -65,7 +64,8 @@
 @media only screen and (max-width: 768px) {
   .order {
     min-height: auto;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     background-image: url('../images/tablet/present.png');
     background-position: bottom;
@@ -78,8 +78,6 @@
 
   .order__header {
     margin-bottom: 30px;
-
-    font-size: 28px;
   }
 
   .order__instruction-step {
@@ -118,8 +116,6 @@
     margin-bottom: 40px;
 
     text-align: center;
-
-    font-size: 24px;
   }
 
   .order__instruction-step {

@@ -21,7 +21,6 @@
   --primary-background: #fbebea;
   --primary-color: #f50049;
   --footer-background: #e8e8e8;
-  --max-content-width: 1280px;
 }
 
 @media only screen and (max-width: 768px) {

@@ -1,7 +1,6 @@
 .choose-cake {
   width: 100%;
   min-height: calc(100vh - 61px);
-  padding: 0 30px;
 
   color: #2e2829;
 
@@ -52,7 +51,7 @@
   .choose-cake {
     min-height: auto;
     margin-bottom: 120px;
-    padding: 115px 50px 0 50px;
+    padding-top: 115px;
 
     background-position: revert;
   }
@@ -95,6 +94,10 @@
 
     font-size: 60px;
   }
+
+  .choose-cake__subheader {
+    margin-bottom: 20px;
+  }
   
   .choose-cake__button {
     order: 1;
@@ -110,5 +113,9 @@
 
   .choose-cake__benefits-item {
     max-width: 100%;
+  }
+
+  .choose-cake__benefits-item:not(:last-child) {
+    margin-bottom: 10px;
   }
 }

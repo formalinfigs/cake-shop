@@ -8,7 +8,7 @@
   justify-content: space-between;
 
   width: 100%;
-  padding: 20px 30px;
+  padding: 20px 75px;
 
   text-align: center;
 
@@ -117,7 +117,7 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-  header {
+  .header {
     padding: 20px;
   }
 
