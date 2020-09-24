@@ -1,0 +1,121 @@
+.choose-cake {
+  width: 100%;
+  min-height: calc(100vh - 61px);
+
+  color: #2e2829;
+
+  font-family: 'Arsenal', sans-serif;
+}
+
+.choose-cake__wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  padding-top: 80px;
+}
+
+.choose-cake__header {
+  width: 320px;
+  margin-bottom: 30px;
+
+  font-size: 78px;
+  font-weight: bold;
+}
+
+.choose-cake__subheader {
+  margin-bottom: 70px;
+
+  font-size: 40px;
+}
+
+.choose-cake__benefits {
+  display: flex;
+}
+
+.choose-cake__benefits-item {
+  max-width: 44%;
+}
+
+.choose-cake__benefits-item:first-child {
+  margin-right: 20px;
+}
+
+.choose-cake__button {
+  margin-bottom: 100px;
+
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .choose-cake {
+    min-height: auto;
+    margin-bottom: 120px;
+    padding-top: 115px;
+
+    background-position: revert;
+  }
+
+  .choose-cake__header {
+    width: 270px;
+
+    font-size: 60px;
+  }
+
+  .choose-cake__subheader {
+    margin-bottom: 60px;
+
+    font-size: 36px;
+  }
+
+  .choose-cake__button {
+    margin-bottom: 150px;
+    padding: 20px 73px;
+
+    border-radius: 30px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .choose-cake {
+    margin-bottom: 30px;
+  }
+
+  .choose-cake__wrapper {
+    align-items: center;
+
+    padding-top: 40px;
+  }
+
+  .choose-cake__header {
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    font-size: 60px;
+  }
+
+  .choose-cake__subheader {
+    margin-bottom: 20px;
+  }
+  
+  .choose-cake__button {
+    order: 1;
+
+    margin-bottom: 0;
+  }
+
+  .choose-cake__benefits {
+    flex-direction: column;
+
+    margin-bottom: 40px;
+  }
+
+  .choose-cake__benefits-item {
+    max-width: 100%;
+  }
+
+  .choose-cake__benefits-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

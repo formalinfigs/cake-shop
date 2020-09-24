@@ -1,0 +1,12 @@
+.benefit {
+  display: flex;
+  align-items: center;
+}
+
+.benefit__icon {
+  margin-right: 10px;
+
+  color: var(--primary-color);
+
+  font-size: 40px;
+}

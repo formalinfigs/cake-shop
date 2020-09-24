@@ -1,0 +1,223 @@
+.contacts {
+  min-height: 100vh;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  background-color: var(--primary-background);
+  background-image: url('../images/desktop/strawberries.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: contain;
+
+  font-family: 'Arsenal', sans-serif;
+  font-size: 20px;
+}
+
+.contacts__header {
+  margin-bottom: 40px;
+
+  font-weight: bold;
+}
+
+.contacts__subheader {
+  margin-bottom: 30px;
+
+  font-size: 35px;
+}
+
+.contacts__text {
+  margin-bottom: 30px;
+}
+
+.contacts__social-network-button {
+  padding: 0.5em;
+
+  text-decoration: none;
+
+  border-radius: 50%;
+  background-color: white;
+
+  font-size: 2em;
+
+  appearance: button;
+}
+
+.contacts__social-network-button:first-of-type {
+  margin-right: 30px;
+}
+
+.contacts__social-network-button-icon {
+  color: var(--primary-color);
+}
+
+.contacts__wrapper {
+  display: flex;
+}
+
+.contacts__feedback {
+  margin-right: 60px;
+}
+
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__form-input,
+.contacts__form-textarea {
+  margin-bottom: 20px;
+  padding: 20px 0 3px 0;
+
+  border: none;
+  border-bottom: 1px solid rgba(143, 143, 143, 0.678);
+  outline: none;
+  background-color: transparent;
+
+  font-family: 'Arsenal', sans-serif;
+  font-size: 14px;
+}
+
+.contacts__form-input::placeholder,
+.contacts__form-textarea::placeholder {
+  color: rgb(143, 143, 143);
+}
+
+.contacts__form-textarea {
+  height: 42px;
+  margin-bottom: 40px;
+
+  resize: none;
+}
+
+.contacts__form-submit {
+  align-self: flex-start;
+
+  padding: 0.5em 2em;
+
+  text-transform: capitalize;
+
+  font-size: 19px;
+}
+
+.contacts__link {
+  text-decoration: none;
+
+  color: currentColor;
+}
+
+.contacts__phone {
+  display: block;
+}
+
+.contacts__link:hover,
+.contacts__phone:hover {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 768px) {
+  .contacts {
+    min-height: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    font-size: 14px;
+  }
+
+  .contacts__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .contacts__header {
+    margin-bottom: 20px;
+  }
+
+  .contacts__subheader {
+    font-size: 22px;
+  }
+
+  .contacts__text {
+    margin-bottom: 15px;
+  }
+
+  .contacts__form-input,
+  .contacts__form-textarea {
+    margin-bottom: 10px;
+    padding: 15px 10px;
+
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffffff;
+
+    font-family: 'Arsenal', sans-serif;
+    font-size: 14px;
+  }
+
+  .contacts__form-input::placeholder,
+  .contacts__form-textarea::placeholder {
+    color: #cccccc;
+  }
+
+  .contacts__form-textarea {
+    min-height: 120px;
+    margin-bottom: 30px;
+
+    resize: none;
+  }
+
+  .contacts__social-network-button:first-of-type {
+    margin-right: 15px;
+  }
+
+  .contacts__form-submit {
+    margin-bottom: 30px;
+    padding: 13px 45px;
+
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .contacts {
+    padding: 40px 20px;
+
+    background-image: none;
+  }
+
+  .contacts__form-submit {
+    margin: 0 auto 30px;
+  }
+
+  .contacts__wrapper {
+    display: block;
+  }
+
+  .contacts__header {
+    margin-bottom: 15px;
+
+    text-align: center;
+  }
+
+  .contacts__subheader {
+    margin-bottom: 10px;
+
+    font-size: 22px;
+  }
+
+  .contacts__text {
+    margin-bottom: 10px;
+  }
+
+  .contacts__feedback {
+    margin-right: 0;
+  }
+
+  .contacts__form-textarea {
+    margin-bottom: 20px;
+  }
+
+  .contacts__network > .contacts__text {
+    margin-bottom: 25px;
+  }
+}

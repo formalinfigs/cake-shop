@@ -1,0 +1,126 @@
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  width: 100%;
+  min-height: 80vh;
+
+  color: white;
+  background-color: #e8393f;
+  background-image: url('../images/desktop/present.png');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: contain;
+}
+
+.order__content-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 500px;
+}
+
+.order__header {
+  margin-bottom: 40px;
+
+  font-weight: bold;
+}
+
+.order__instruction {
+  display: flex;
+}
+
+.order__instruction-step {
+  min-width: 30px;
+  margin-right: 20px;
+
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.order__instruction-content {
+  font-family: 'Arsenal', sans-serif;
+}
+
+.order__instruction-header {
+  display: block;
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.order__instruction-info {
+  display: inline-block;
+
+  margin-bottom: 20px;
+
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .order {
+    min-height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-image: url('../images/tablet/present.png');
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  .order__content-wrapper {
+    max-width: 300px;
+  }
+
+  .order__header {
+    margin-bottom: 30px;
+  }
+
+  .order__instruction-step {
+    min-width: 30px;
+    margin-right: 10px;
+
+    font-size: 36px;
+  }
+
+  .order__instruction-header {
+    margin-top: 10px;
+
+    font-size: 15px;
+  }
+
+  .order__instruction-info {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .order {
+    display: flex;
+
+    background-image: url('../images/mobile/present.png');
+    background-position: bottom;
+    background-size: contain;
+  }
+
+  .order__content-wrapper {
+    max-width: none;
+    margin-bottom: 115px;
+  }
+
+  .order__header {
+    margin-bottom: 40px;
+
+    text-align: center;
+  }
+
+  .order__instruction-step {
+    margin-right: 0;
+
+    font-size: 35px;
+  }
+}
