@@ -114,15 +114,11 @@
 
     opacity: 1;
   }
-
-  .header__phone-number {
-    display: none;
-  }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
   .header__phone-number {
-    display: block;
+    display: none;
   }
 
   .header__navigation-item {
