@@ -76,3 +76,39 @@
     border-radius: 30px;
   }
 }
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .choose-cake {
+    margin-bottom: 30px;
+  }
+
+  .choose-cake__wrapper {
+    align-items: center;
+
+    padding-top: 40px;
+  }
+
+  .choose-cake__header {
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    font-size: 60px;
+  }
+  
+  .choose-cake__button {
+    order: 1;
+
+    margin-bottom: 0;
+  }
+
+  .choose-cake__benefits {
+    flex-direction: column;
+
+    margin-bottom: 40px;
+  }
+
+  .choose-cake__benefits-item {
+    max-width: 100%;
+  }
+}

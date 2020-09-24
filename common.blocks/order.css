@@ -66,7 +66,7 @@
     min-height: auto;
     padding: 50px;
 
-    background-color: #e8383e;
+    background-color: #e6383d;
     background-image: url('../images/tablet/present.png');
     background-position: bottom;
     background-size: cover;
@@ -94,8 +94,37 @@
 
     font-size: 15px;
   }
-  
+
   .order__instruction-info {
     font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .order {
+    display: flex;
+
+    background-image: url('../images/mobile/present.png');
+    background-position: bottom;
+    background-size: contain;
+  }
+
+  .order__content-wrapper {
+    max-width: none;
+    margin-bottom: 115px;
+  }
+
+  .order__header {
+    margin-bottom: 40px;
+
+    text-align: center;
+
+    font-size: 24px;
+  }
+
+  .order__instruction-step {
+    margin-right: 0;
+
+    font-size: 35px;
   }
 }
