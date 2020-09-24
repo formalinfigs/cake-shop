@@ -96,13 +96,19 @@
 
 .assortment__more-button:hover {
   text-decoration: none;
+
+  color: var(--primary-color);
 }
 
 .assortment__more-button:hover > .assortment__more-icon {
-  margin-left: 10px;
+  margin-left: 5px;
+
+  color: var(--primary-color);
 }
 
 .assortment__more-icon {
+  margin-left: 15px;
+
   transition: margin-left 500ms;
 
   color: #666363;

@@ -7,10 +7,11 @@
   min-height: 80vh;
 
   color: white;
+  background-color: #e8393f;
   background-image: url('../images/desktop/present.png');
   background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
+  background-position: bottom left;
+  background-size: contain;
 }
 
 .order__content-wrapper {
@@ -66,7 +67,6 @@
     min-height: auto;
     padding: 50px;
 
-    background-color: #e6383d;
     background-image: url('../images/tablet/present.png');
     background-position: bottom;
     background-size: cover;
