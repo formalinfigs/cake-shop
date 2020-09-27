@@ -76,7 +76,7 @@
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .choose-cake {
     margin-bottom: 30px;
   }

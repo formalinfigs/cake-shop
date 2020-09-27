@@ -7,8 +7,8 @@
   min-height: 80vh;
 
   color: white;
-  background-color: #e8393f;
-  background-image: url('../images/desktop/present.png');
+  background-image: url('../images/desktop/present.png'),
+    linear-gradient(180deg, rgb(243 61 62) 0%, rgb(225 50 58) 35%, rgba(225, 50, 58) 65%, rgb(213 40 50) 100%);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: contain;
@@ -19,6 +19,7 @@
   flex-direction: column;
 
   max-width: 500px;
+  margin: 0 0 0 auto;
 }
 
 .order__header {
@@ -98,7 +99,7 @@
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .order {
     display: flex;
 
