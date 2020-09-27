@@ -11,30 +11,32 @@
     />
   </head>
   <body>
-    <header class="header">
-      <h1 class="header__logo">Cakes</h1>
-      <input type="checkbox" class="header__navigation-toggle navigation-toggle" id="navigation-toggle" />
-      <nav class="header__navigation navigation">
-        <ul class="header__list">
-          <li class="header__navigation-item navigation__item">
-            <a class="navigation__link header__link" href="#assortment">Наши торты</a>
-          </li>
-          <li class="header__navigation-item navigation__item">
-            <a class="navigation__link header__link" href="#order">Как заказать</a>
-          </li>
-          <li class="header__navigation-item navigation__item">
-            <a class="navigation__link header__link" href="#contacts">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <label for="navigation-toggle" class="header__navigation-toggle-label">
-        <span class="icon icon-menu"></span>
-      </label>
-      <a class="header__phone-number" href="tel:+79068999296">+7 906 899 92 96</a>
+    <header class="header container">
+      <div class="content header__content">
+        <h1 class="header__logo">Cakes</h1>
+        <input type="checkbox" class="header__navigation-toggle navigation-toggle" id="navigation-toggle" />
+        <nav class="header__navigation navigation">
+          <ul class="header__list">
+            <li class="header__navigation-item navigation__item">
+              <a class="navigation__link header__link" href="#assortment">Наши торты</a>
+            </li>
+            <li class="header__navigation-item navigation__item">
+              <a class="navigation__link header__link" href="#order">Как заказать</a>
+            </li>
+            <li class="header__navigation-item navigation__item">
+              <a class="navigation__link header__link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <label for="navigation-toggle" class="header__navigation-toggle-label">
+          <span class="icon icon-menu"></span>
+        </label>
+        <a class="header__phone-number" href="tel:+79068999296">+7 906 899 92 96</a>
+      </div>
     </header>
     <main class="main">
-      <section class="section choose-cake">
-        <div class="choose-cake__wrapper">
+      <section class="section container choose-cake">
+        <div class="choose-cake__wrapper content">
           <h3 class="choose-cake__header text text_typography">Торты на заказ</h3>
           <h4 class="choose-cake__subheader text text_handwritten text_dark">Ручная работа</h4>
           <a class="choose-cake__button button" href="#assortment">Выбрать торт</a>
@@ -50,73 +52,75 @@
           </div>
         </div>
       </section>
-      <section class="section assortment" id="assortment">
-        <h3 class="section-title text text_typography assortment__title">Наши торты</h3>
-        <div class="assortment__grid">
-          <div class="assortment__grid-item">
-            <div class="assortment__image-wrapper">
-              <img class="assortment__image" src="images/desktop/classic-cake.png" alt="classic cakes" />
+      <section class="section container assortment" id="assortment">
+        <div class="content">
+          <h3 class="section-title text text_typography assortment__title">Наши торты</h3>
+          <div class="assortment__grid">
+            <div class="assortment__grid-item">
+              <div class="assortment__image-wrapper">
+                <img class="assortment__image" src="images/desktop/classic-cake.png" alt="classic cakes" />
+              </div>
+              <h5 class="assortment__type">Классические</h5>
+              <h6 class="assortment__count-of-type">24 вида</h6>
+              <button class="button-link assortment__more-button">
+                Смотреть<span class="icon icon-arrow-right2 assortment__more-icon"></span>
+              </button>
             </div>
-            <h5 class="assortment__type">Классические</h5>
-            <h6 class="assortment__count-of-type">24 вида</h6>
-            <button class="button-link assortment__more-button">
-              Смотреть<span class="icon icon-arrow-right2 assortment__more-icon"></span>
-            </button>
-          </div>
-          <div class="assortment__grid-item">
-            <div class="assortment__image-wrapper">
-              <img class="assortment__image" src="images/desktop/muss-cake.png" alt="muss cake" />
+            <div class="assortment__grid-item">
+              <div class="assortment__image-wrapper">
+                <img class="assortment__image" src="images/desktop/muss-cake.png" alt="muss cake" />
+              </div>
+              <h5 class="assortment__type">Муссовые</h5>
+              <h6 class="assortment__count-of-type">12 видов</h6>
+              <button class="button-link assortment__more-button">
+                <span class="icon icon-arrow-right2 assortment__more-icon"></span>
+              </button>
             </div>
-            <h5 class="assortment__type">Муссовые</h5>
-            <h6 class="assortment__count-of-type">12 видов</h6>
-            <button class="button-link assortment__more-button">
-              <span class="icon icon-arrow-right2 assortment__more-icon"></span>
-            </button>
-          </div>
-          <div class="assortment__grid-item">
-            <div class="assortment__image-wrapper">
-              <img class="assortment__image" src="images/desktop/wedding-cake.png" alt="cakes for wedding" />
+            <div class="assortment__grid-item">
+              <div class="assortment__image-wrapper">
+                <img class="assortment__image" src="images/desktop/wedding-cake.png" alt="cakes for wedding" />
+              </div>
+              <h5 class="assortment__type">Свадебные</h5>
+              <h6 class="assortment__count-of-type">20 видов</h6>
+              <button class="button-link assortment__more-button">
+                <span class="icon icon-arrow-right2 assortment__more-icon"></span>
+              </button>
             </div>
-            <h5 class="assortment__type">Свадебные</h5>
-            <h6 class="assortment__count-of-type">20 видов</h6>
-            <button class="button-link assortment__more-button">
-              <span class="icon icon-arrow-right2 assortment__more-icon"></span>
-            </button>
-          </div>
-          <div class="assortment__grid-item">
-            <div class="assortment__image-wrapper">
-              <img class="assortment__image" src="images/desktop/men-cake.png" alt="cakes for men" />
+            <div class="assortment__grid-item">
+              <div class="assortment__image-wrapper">
+                <img class="assortment__image" src="images/desktop/men-cake.png" alt="cakes for men" />
+              </div>
+              <h5 class="assortment__type">Мужчинам</h5>
+              <h6 class="assortment__count-of-type">12 видов</h6>
+              <button class="button-link assortment__more-button">
+                <span class="icon icon-arrow-right2 assortment__more-icon"></span>
+              </button>
             </div>
-            <h5 class="assortment__type">Мужчинам</h5>
-            <h6 class="assortment__count-of-type">12 видов</h6>
-            <button class="button-link assortment__more-button">
-              <span class="icon icon-arrow-right2 assortment__more-icon"></span>
-            </button>
-          </div>
-          <div class="assortment__grid-item">
-            <div class="assortment__image-wrapper">
-              <img class="assortment__image" src="images/desktop/kids-cake.png" alt="cakes for kids" />
+            <div class="assortment__grid-item">
+              <div class="assortment__image-wrapper">
+                <img class="assortment__image" src="images/desktop/kids-cake.png" alt="cakes for kids" />
+              </div>
+              <h5 class="assortment__type">Детские</h5>
+              <h6 class="assortment__count-of-type">18 видов</h6>
+              <button class="button-link assortment__more-button">
+                <span class="icon icon-arrow-right2 assortment__more-icon"></span>
+              </button>
             </div>
-            <h5 class="assortment__type">Детские</h5>
-            <h6 class="assortment__count-of-type">18 видов</h6>
-            <button class="button-link assortment__more-button">
-              <span class="icon icon-arrow-right2 assortment__more-icon"></span>
-            </button>
-          </div>
-          <div class="assortment__grid-item">
-            <div class="assortment__image-wrapper">
-              <img class="assortment__image" src="images/desktop/women-cake.png" alt="cakes for women" />
+            <div class="assortment__grid-item">
+              <div class="assortment__image-wrapper">
+                <img class="assortment__image" src="images/desktop/women-cake.png" alt="cakes for women" />
+              </div>
+              <h5 class="assortment__type">Женщинам</h5>
+              <h6 class="assortment__count-of-type">16 видов</h6>
+              <button class="button-link assortment__more-button">
+                <span class="icon icon-arrow-right2 assortment__more-icon"></span>
+              </button>
             </div>
-            <h5 class="assortment__type">Женщинам</h5>
-            <h6 class="assortment__count-of-type">16 видов</h6>
-            <button class="button-link assortment__more-button">
-              <span class="icon icon-arrow-right2 assortment__more-icon"></span>
-            </button>
           </div>
         </div>
       </section>
-      <section class="section order" id="order">
-        <div class="order__content-wrapper">
+      <section class="section container order" id="order">
+        <div class="order__content-wrapper content">
           <h3 class="section-title order__header text text_typography">Как заказать</h3>
           <div class="order__instruction">
             <span class="order__instruction-step text text_typography">1</span>
@@ -145,66 +149,70 @@
           </div>
         </div>
       </section>
-      <section class="section contacts" id="contacts">
-        <h3 class="section-title contacts__header text text_typography">Контакты</h3>
-        <h4 class="contacts__subheader text text_handwritten">Остались вопросы?</h4>
-        <div class="contacts__wrapper">
-          <div class="contacts__feedback">
-            <p class="contacts__text">Заполните форму ниже и наш кондитер свяжется с Вами</p>
-            <form class="contacts__form">
-              <input class="contacts__form-input" type="text" placeholder="Ваше имя" />
-              <input class="contacts__form-input" type="email" placeholder="Email адрес" />
-              <textarea class="contacts__form-textarea" placeholder="Ваш вопрос"></textarea>
-              <button class="button contacts__form-submit">Отправить</button>
-            </form>
-          </div>
-          <div class="contacts__network">
-            <p class="contacts__text">
-              Или позвоните по телефону:
-              <a class="contacts__link contacts__phone" href="tel:+79068999296">+7 906 899 92 96</a>
-            </p>
-            <p class="contacts__text">
-              Наша почта: <a class="contacts__link" href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a>
-            </p>
-            <p class="contacts__text">Мы в соц. сетях:</p>
-            <a class="contacts__social-network-button" href="https://instagram.com" target="_blank">
-              <span class="contacts__social-network-button-icon icon icon-instagram"></span>
-            </a>
-            <a class="contacts__social-network-button" href="https://vk.com" target="_blank">
-              <span class="contacts__social-network-button-icon icon icon-vk"></span>
-            </a>
+      <section class="section container contacts" id="contacts">
+        <div class="content">
+          <h3 class="section-title contacts__header text text_typography">Контакты</h3>
+          <h4 class="contacts__subheader text text_handwritten">Остались вопросы?</h4>
+          <div class="contacts__wrapper">
+            <div class="contacts__feedback">
+              <p class="contacts__text">Заполните форму ниже и наш кондитер свяжется с Вами</p>
+              <form class="contacts__form">
+                <input class="contacts__form-input" type="text" placeholder="Ваше имя" />
+                <input class="contacts__form-input" type="email" placeholder="Email адрес" />
+                <textarea class="contacts__form-textarea" placeholder="Ваш вопрос"></textarea>
+                <button class="button contacts__form-submit">Отправить</button>
+              </form>
+            </div>
+            <div class="contacts__network">
+              <p class="contacts__text">
+                Или позвоните по телефону:
+                <a class="contacts__link contacts__phone" href="tel:+79068999296">+7 906 899 92 96</a>
+              </p>
+              <p class="contacts__text">
+                Наша почта: <a class="contacts__link" href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a>
+              </p>
+              <p class="contacts__text">Мы в соц. сетях:</p>
+              <a class="contacts__social-network-button" href="https://instagram.com" target="_blank">
+                <span class="contacts__social-network-button-icon icon icon-instagram"></span>
+              </a>
+              <a class="contacts__social-network-button" href="https://vk.com" target="_blank">
+                <span class="contacts__social-network-button-icon icon icon-vk"></span>
+              </a>
+            </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="section footer">
-      <h1 class="footer__logo text text_typography">Cakes</h1>
-      <nav class="footer__navigation navigation">
-        <ul class="footer__list">
-          <li class="navigation__item footer__navigation-item">
-            <a class="navigation__link footer__link" href="#assortment">Наши торты</a>
-          </li>
-          <li class="navigation__item footer__navigation-item">
-            <a class="navigation__link footer__link" href="#order">Как заказать</a>
-          </li>
-          <li class="navigation__item footer__navigation-item">
-            <a class="navigation__link footer__link" href="#contacts">Контакты</a>
-          </li>
-          <li class="navigation__item footer__navigation-item">
-            <a class="navigation__link footer__link" href="tel:+79068999296">+7 906 899 92 96</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="footer__social-network">
-        <a class="footer__social-network-button" href="https://instagram.com" target="_blank">
-          <span class="footer__social-network-button-icon icon icon-instagram"></span>
-        </a>
-        <a class="footer__social-network-button" href="https://vk.com" target="_blank">
-          <span class="footer__social-network-button-icon icon icon-vk"></span>
-        </a>
+    <footer class="section container footer">
+      <div class="content footer__content">
+        <h1 class="footer__logo text text_typography">Cakes</h1>
+        <nav class="footer__navigation navigation">
+          <ul class="footer__list">
+            <li class="navigation__item footer__navigation-item">
+              <a class="navigation__link footer__link" href="#assortment">Наши торты</a>
+            </li>
+            <li class="navigation__item footer__navigation-item">
+              <a class="navigation__link footer__link" href="#order">Как заказать</a>
+            </li>
+            <li class="navigation__item footer__navigation-item">
+              <a class="navigation__link footer__link" href="#contacts">Контакты</a>
+            </li>
+            <li class="navigation__item footer__navigation-item">
+              <a class="navigation__link footer__link" href="tel:+79068999296">+7 906 899 92 96</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__social-network">
+          <a class="footer__social-network-button" href="https://instagram.com" target="_blank">
+            <span class="footer__social-network-button-icon icon icon-instagram"></span>
+          </a>
+          <a class="footer__social-network-button" href="https://vk.com" target="_blank">
+            <span class="footer__social-network-button-icon icon icon-vk"></span>
+          </a>
+        </div>
+        <hr class="footer__divider" />
+        <span class="footer__copyright">@ 2020 Cakes</span>
       </div>
-      <hr class="footer__divider" />
-      <span class="footer__copyright">@ 2020 Cakes</span>
     </footer>
   </body>
 </html>
