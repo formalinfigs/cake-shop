@@ -68,7 +68,8 @@
     padding-top: 50px;
     padding-bottom: 50px;
 
-    background-image: url('../images/tablet/present.png');
+    background-image: url('../images/tablet/present.png'),
+      linear-gradient(180deg, rgb(243 61 62) 0%, rgb(225 50 58) 35%, rgba(225, 50, 58) 65%, rgb(213 40 50) 100%);
     background-position: bottom;
     background-size: cover;
   }
@@ -103,6 +104,7 @@
   .order {
     display: flex;
 
+    background-color: #e5363c;
     background-image: url('../images/mobile/present.png');
     background-position: bottom;
     background-size: contain;
