@@ -12,15 +12,18 @@
   align-items: flex-start;
   flex-direction: column;
 
-  padding-top: 80px;
+  padding-top: 92px;
 }
 
 .choose-cake__header {
-  width: 320px;
+  width: 377px;
   margin-bottom: 30px;
 
-  font-size: 78px;
+  letter-spacing: 6px;
+
+  font-size: 77px;
   font-weight: bold;
+  line-height: 93%;
 }
 
 .choose-cake__subheader {
@@ -98,7 +101,7 @@
   .choose-cake__subheader {
     margin-bottom: 20px;
   }
-  
+
   .choose-cake__button {
     order: 1;
 
