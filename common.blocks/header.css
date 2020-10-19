@@ -4,6 +4,7 @@
   top: 0;
 
   width: 100%;
+  margin: 35px 0;
   padding: 20px 75px;
 
   text-align: center;
@@ -15,7 +16,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
 
+.header__navigation,
+.header__phone-number {
+  margin: 10px 0 0;
 }
 
 .header__navigation-toggle-label {
@@ -27,10 +32,12 @@
 }
 
 .header__navigation-item {
-  margin-left: 50px;
+  margin-left: 45px;
 }
 
 .header__link {
+  letter-spacing: 1.15px;
+
   opacity: 1;
 }
 
@@ -56,7 +63,9 @@
 }
 
 .header__logo {
-  font: bold 16px 'Playfair Display', serif;
+  letter-spacing: 1px;
+
+  font: bold 23px 'Playfair Display', serif;
 }
 
 .header__navigation-toggle {
@@ -65,6 +74,7 @@
 
 @media only screen and (max-width: 768px) {
   .header {
+    margin: 0;
     padding: 20px 50px;
 
     background-color: white;
@@ -76,8 +86,8 @@
     left: 0;
 
     width: 100%;
+    margin: 0;
 
-    transition: transform 350ms ease-in-out;
     transform: scale(1, 0);
     transform-origin: top;
   }
@@ -87,10 +97,8 @@
   }
 
   .header__navigation-toggle-label {
-    display: flex;
-    align-items: center;
+    display: block;
 
-    height: 100%;
     margin-left: 1em;
 
     cursor: pointer;
@@ -107,9 +115,10 @@
   }
 
   .header__navigation-toggle:checked ~ .header__navigation {
+    transition: transform 350ms ease-in-out;
     transform: scale(1, 1);
 
-    opacity: 1;
+    /* opacity: 1; */
   }
 
   .header__navigation-toggle:checked ~ .header__navigation .header__link {
