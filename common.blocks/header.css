@@ -63,7 +63,10 @@
 }
 
 .header__logo {
+  text-decoration: none;
   letter-spacing: 1px;
+
+  color: inherit;
 
   font: bold 23px 'Playfair Display', serif;
 }

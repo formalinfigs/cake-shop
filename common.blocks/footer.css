@@ -47,6 +47,9 @@
   flex-grow: 1;
 
   text-align: start;
+  text-decoration: none;
+
+  color: inherit;
 
   font-size: 28px;
   font-weight: bold;
