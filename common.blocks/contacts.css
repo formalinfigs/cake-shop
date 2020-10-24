@@ -1,6 +1,6 @@
 .contacts {
-  min-height: 100vh;
-  padding-top: 70px;
+  min-height: 847px;
+  padding-top: 80px;
   padding-bottom: 70px;
 
   background-color: var(--primary-background);
@@ -15,13 +15,13 @@
 }
 
 .contacts__header {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 
   font-weight: bold;
 }
 
 .contacts__subheader {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
   font-size: 35px;
 }
@@ -31,24 +31,25 @@
 }
 
 .contacts__social-network-button {
-  padding: 0.5em;
+  margin-right: 30px;
+  padding: 17px;
 
   text-decoration: none;
 
   border-radius: 50%;
   background-color: white;
 
-  font-size: 2em;
-
   appearance: button;
 }
 
-.contacts__social-network-button:first-of-type {
-  margin-right: 30px;
+.contacts__social-network-button:last-of-type {
+  margin-right: 0;
 }
 
 .contacts__social-network-button-icon {
   color: var(--primary-color);
+
+  font-size: 28px;
 }
 
 .contacts__wrapper {
@@ -56,7 +57,13 @@
 }
 
 .contacts__feedback {
-  margin-right: 60px;
+  flex-grow: 4;
+
+  margin-right: 85px;
+}
+
+.contacts__network {
+  flex-grow: 16;
 }
 
 .contacts__form {
@@ -70,7 +77,7 @@
   padding: 20px 0 3px 0;
 
   border: none;
-  border-bottom: 1px solid rgba(143, 143, 143, 0.678);
+  border-bottom: 1px solid #c9bab9;
   outline: none;
   background-color: transparent;
 
@@ -80,12 +87,12 @@
 
 .contacts__form-input::placeholder,
 .contacts__form-textarea::placeholder {
-  color: rgb(143, 143, 143);
+  color: #c9bab9;
 }
 
 .contacts__form-textarea {
   height: 42px;
-  margin-bottom: 40px;
+  margin-bottom: 79px;
 
   resize: none;
 }
@@ -93,9 +100,11 @@
 .contacts__form-submit {
   align-self: flex-start;
 
-  padding: 0.5em 2em;
+  padding: 14px 47px;
 
   text-transform: capitalize;
+
+  border-radius: 25px;
 
   font-size: 19px;
 }

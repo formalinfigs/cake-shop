@@ -5,7 +5,7 @@
 }
 
 .assortment__title {
-  margin-bottom: 40px;
+  margin-bottom: 65px;
 
   font-weight: bold;
 }
@@ -14,9 +14,9 @@
   display: grid;
   justify-content: center;
 
-  margin: 10px auto 30px;
+  margin: 0 auto 58px;
 
-  grid-gap: 20px;
+  grid-gap: 45px 50px;
   grid-auto-flow: dense;
   grid-template-columns: repeat(5, 1fr);
 }
@@ -28,6 +28,8 @@
 }
 
 .assortment__grid-item {
+  min-height: 305px;
+
   grid-column: span 2;
 }
 
@@ -56,8 +58,10 @@
 
 .assortment__type {
   position: absolute;
-  top: 35px;
-  left: 50px;
+  top: 37px;
+  left: 45px;
+
+  letter-spacing: 1px;
 
   color: #2d2829;
 
@@ -67,8 +71,10 @@
 
 .assortment__count-of-type {
   position: absolute;
-  top: 70px;
-  left: 50px;
+  top: 67px;
+  left: 45px;
+
+  letter-spacing: 0.5px;
 
   color: #666363;
 

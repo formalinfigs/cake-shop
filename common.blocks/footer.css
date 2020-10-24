@@ -1,5 +1,5 @@
 .footer {
-  padding: 20px 75px;
+  padding: 30px 75px 10px;
 
   text-align: center;
 
@@ -31,7 +31,7 @@
 .footer__divider {
   width: 100%;
   height: 0;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 20px;
 
   border: 0;
@@ -48,6 +48,7 @@
 
   text-align: start;
   text-decoration: none;
+  letter-spacing: 1px;
 
   color: inherit;
 
@@ -63,6 +64,8 @@
 
 .footer__social-network {
   flex-grow: 1;
+
+  margin-top: 15px;
 
   text-align: end;
 }
