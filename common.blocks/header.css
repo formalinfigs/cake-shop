@@ -75,12 +75,16 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1365px) {
   .header {
     margin: 0;
-    padding: 20px 50px;
+    padding: 17px 50px;
 
     background-color: white;
+  }
+
+  .header__logo {
+    font-size: 20px;
   }
 
   .header__navigation {
@@ -95,6 +99,10 @@
     transform-origin: top;
   }
 
+  .header__phone-number {
+    margin: 0 0 0 auto;
+  }
+
   .header__navigation-item {
     margin-bottom: 1em;
   }
@@ -102,7 +110,7 @@
   .header__navigation-toggle-label {
     display: block;
 
-    margin-left: 1em;
+    margin-left: 26px;
 
     cursor: pointer;
   }
@@ -131,7 +139,7 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   .header {
     padding: 20px;
   }

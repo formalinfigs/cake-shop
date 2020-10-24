@@ -124,7 +124,7 @@
   color: var(--primary-color);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1365px) {
   .contacts {
     min-height: auto;
     padding-top: 50px;
@@ -187,7 +187,7 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   .contacts {
     padding: 40px 20px;
 
