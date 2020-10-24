@@ -36,12 +36,8 @@
   display: flex;
 }
 
-.choose-cake__benefits-item:first-child {
-  margin-right: 20px;
-}
-
 .choose-cake__button {
-  margin-bottom: 140px;
+  margin-bottom: 125px;
   padding: 1.2em 4.45em;
 
   text-decoration: none;
