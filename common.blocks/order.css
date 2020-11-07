@@ -66,17 +66,19 @@
 @media only screen and (min-width: 768px) and (max-width: 1365px) {
   .order {
     min-height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 45px;
 
     background-image: url('../images/tablet/present.png'),
       linear-gradient(180deg, rgb(243 61 62) 0%, rgb(225 50 58) 35%, rgba(225, 50, 58) 65%, rgb(213 40 50) 100%);
-    background-position: bottom;
-    background-size: cover;
+    background-position: left;
+    background-size: contain;
   }
 
   .order__content-wrapper {
     max-width: 300px;
+    margin: 0 0 0 280px;
+    padding-bottom: 0;
   }
 
   .order__header {

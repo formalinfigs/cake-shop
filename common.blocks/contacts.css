@@ -127,8 +127,8 @@
 @media only screen and (min-width: 768px) and (max-width: 1365px) {
   .contacts {
     min-height: auto;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 45px;
+    padding-bottom: 80px;
 
     font-size: 14px;
   }
@@ -137,15 +137,32 @@
     flex-wrap: wrap;
   }
 
+  .contacts__form {
+    min-width: 330px;
+  }
+
   .contacts__header {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .contacts__subheader {
-    font-size: 22px;
+    margin-bottom: 15px;
+
+    font-size: 25px;
   }
 
   .contacts__text {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+  }
+
+  .contacts__feedback {
+    margin-right: 65px;
+  }
+
+  .contacts__feedback-text {
+    max-width: 250px;
     margin-bottom: 15px;
   }
 
@@ -175,13 +192,26 @@
     resize: none;
   }
 
-  .contacts__social-network-button:first-of-type {
-    margin-right: 15px;
+  .contacts__social-network-text {
+    margin-bottom: 25px;
+  }
+
+  .contacts__social-network-button {
+    margin-right: 27px;
+    padding: 16px;
+  }
+
+  .contacts__social-network-button:last-of-type {
+    margin-right: 0px;
+  }
+
+  .contacts__social-network-button-icon {
+    font-size: 32px;
   }
 
   .contacts__form-submit {
     margin-bottom: 30px;
-    padding: 13px 45px;
+    padding: 13px 48px;
 
     font-size: 14px;
   }

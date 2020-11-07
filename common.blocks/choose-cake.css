@@ -1,6 +1,6 @@
 .choose-cake {
   width: 100%;
-  min-height: calc(100vh - 51px - 52px);
+  padding-bottom: 237px;
 
   color: #2e2829;
 
@@ -50,27 +50,34 @@
 @media only screen and (min-width: 768px) and (max-width: 1365px) {
   .choose-cake {
     min-height: auto;
-    margin-bottom: 120px;
-    padding-top: 115px;
+    margin-bottom: 135px;
+    padding-top: 102px;
+    padding-bottom: 0;
 
     background-position: revert;
   }
 
   .choose-cake__header {
-    width: 270px;
+    width: 290px;
+
+    letter-spacing: 4px;
 
     font-size: 60px;
   }
 
   .choose-cake__subheader {
-    margin-bottom: 60px;
+    margin-bottom: 55px;
 
-    font-size: 36px;
+    font-size: 42px;
+  }
+
+  .choose-cake__wrapper {
+    padding-top: 0;
   }
 
   .choose-cake__button {
-    margin-bottom: 150px;
-    padding: 20px 73px;
+    margin-bottom: 145px;
+    padding: 18px 66px;
 
     border-radius: 30px;
   }
