@@ -1,5 +1,5 @@
 .footer {
-  padding: 20px 75px;
+  padding: 30px 75px 15px;
 
   text-align: center;
 
@@ -31,7 +31,7 @@
 .footer__divider {
   width: 100%;
   height: 0;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 20px;
 
   border: 0;
@@ -48,6 +48,7 @@
 
   text-align: start;
   text-decoration: none;
+  letter-spacing: 1px;
 
   color: inherit;
 
@@ -63,6 +64,8 @@
 
 .footer__social-network {
   flex-grow: 1;
+
+  margin-top: 15px;
 
   text-align: end;
 }
@@ -95,9 +98,9 @@
   font-size: 12px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1365px) {
   .footer {
-    padding: 20px;
+    padding: 34px 20px 10px 20px;
 
     color: white;
   }
@@ -113,16 +116,22 @@
   .footer__copyright {
     flex-basis: auto;
     flex-grow: 1;
-    order: 3;
 
-    margin: 0;
+    width: 14%;
+    margin-right: 33px;
     padding: 0;
+
+    text-align: end;
+
+    color: #b6b6b6;
+
+    font-size: 13px;
   }
 
   .footer__link {
     color: white;
 
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .footer__logo {
@@ -133,29 +142,24 @@
     color: whitesmoke;
   }
 
+  .footer__social-network {
+    margin-top: 0;
+  }
+
   .footer__social-network-button {
     margin-right: 20px;
 
     color: #b6b6b6;
+
+    font-size: 23px;
   }
 
   .footer__social-network-button:hover {
     color: white;
   }
 
-  .footer__copyright {
-    margin-right: 20px;
-
-    text-align: end;
-
-    color: #b6b6b6;
-
-    font-size: 12px;
-  }
-
   .footer__divider {
-    margin-top: 40px;
-    margin-bottom: 15px;
+    margin: 37px 50px 13px 50px;
   }
 
   .footer__social-network {
@@ -163,7 +167,7 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   .footer {
     padding-top: 45px;
     padding-bottom: 10px;
@@ -179,7 +183,7 @@
   }
 
   .footer__logo {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     font-size: 28px;
   }
@@ -189,7 +193,7 @@
   }
 
   .footer__navigation-item {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-left: 0;
   }
 
@@ -202,13 +206,16 @@
   }
 
   .footer__divider {
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin: 30px 0 10px;
   }
 
   .footer__social-network {
     order: unset;
 
     margin-top: 10px;
+  }
+
+  .footer__copyright {
+    width: auto;
   }
 }
