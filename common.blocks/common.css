@@ -1,7 +1,7 @@
 .button {
   padding: 1em 3em;
 
-  transition: 250ms;
+  transition: all 250ms;
   text-transform: uppercase;
 
   color: white;
@@ -11,6 +11,18 @@
 
   font-family: 'Arsenal', sans-serif;
   font-size: 13px;
+}
+
+.button:hover {
+  background-color: #cc033f;
+  box-shadow: 0 8px 6px -6px gray;
+}
+
+.button:focus,
+.button:active {
+  outline: none;
+  background-color: #cc033f;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .button-link {
@@ -28,14 +40,6 @@
 
   font-family: 'Arsenal', sans-serif;
   font-size: 13px;
-}
-
-.button-link:hover {
-  text-decoration: underline;
-}
-
-.button:hover {
-  background-color: #be0039;
 }
 
 .text_dark {

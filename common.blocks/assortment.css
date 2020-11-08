@@ -113,7 +113,19 @@
   color: var(--primary-color);
 }
 
+.assortment__more-button:focus {
+  text-decoration: none;
+
+  color: var(--primary-color);
+}
+
 .assortment__more-button:hover > .assortment__more-icon {
+  margin-left: 5px;
+
+  color: var(--primary-color);
+}
+
+.assortment__more-button:focus > .assortment__more-icon {
   margin-left: 5px;
 
   color: var(--primary-color);

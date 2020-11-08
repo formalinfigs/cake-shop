@@ -5,6 +5,7 @@
 }
 
 .navigation__link {
+  transition: color 200ms;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -15,6 +16,11 @@
 
 .navigation__link:hover {
   color: #f50049;
+}
+
+.navigation__link:focus {
+  color: #f50049;
+  outline: none;
 }
 
 @media only screen and (max-width: 1365px) {
