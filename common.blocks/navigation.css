@@ -5,20 +5,32 @@
 }
 
 .navigation__link {
+  transition: color 200ms;
   text-decoration: none;
   text-transform: uppercase;
 
   color: #2d2829;
 
-  font: normal 13px 'Arsenal', sans-serif;
+  font: normal 14px 'Arsenal', sans-serif;
 }
 
 .navigation__link:hover {
   color: #f50049;
 }
 
-@media only screen and (max-width: 768px) {
+.navigation__link:focus {
+  color: #f50049;
+  outline: none;
+}
+
+@media only screen and (max-width: 1365px) {
   .navigation {
     background-color: white;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navigation__link {
+    font-size: 12px;
   }
 }
