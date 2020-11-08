@@ -27,7 +27,8 @@
   display: none;
 }
 
-.header__navigation-toggle-label:hover {
+.header__navigation-toggle-label:hover,
+.header__navigation-toggle-label:focus {
   color: var(--primary-color);
 }
 
@@ -62,6 +63,11 @@
   color: var(--primary-color);
 }
 
+.header__phone-number:focus {
+  color: var(--primary-color);
+  outline: none;
+}
+
 .header__logo {
   text-decoration: none;
   letter-spacing: 1px;
@@ -69,6 +75,15 @@
   color: inherit;
 
   font: bold 23px 'Playfair Display', serif;
+}
+
+.header__logo:hover {
+  color: var(--primary-color);
+}
+
+.header__logo:focus {
+  color: var(--primary-color);
+  outline: none;
 }
 
 .header__navigation-toggle {

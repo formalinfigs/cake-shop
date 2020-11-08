@@ -46,6 +46,7 @@
 .footer__logo {
   flex-grow: 1;
 
+  transition: color 200ms;
   text-align: start;
   text-decoration: none;
   letter-spacing: 1px;
@@ -54,6 +55,15 @@
 
   font-size: 28px;
   font-weight: bold;
+}
+
+.footer__logo:hover {
+  color: var(--primary-color);
+}
+
+.footer__logo:focus {
+  color: var(--primary-color);
+  outline: none;
 }
 
 .footer__link {
@@ -71,6 +81,7 @@
 }
 
 .footer__social-network-button {
+  transition: color 200ms;
   text-decoration: none;
 
   color: #8f8f8f;
@@ -87,6 +98,7 @@
 .footer__social-network-button:hover,
 .footer__social-network-button:focus {
   color: var(--primary-color);
+  outline: none;
 }
 
 .footer__copyright {
@@ -138,6 +150,16 @@
     font-size: 18px;
   }
 
+  .footer__logo:hover,
+  .footer__logo:focus {
+    color: rgb(209, 209, 209);
+  }
+
+  .footer__link:hover,
+  .footer__link:focus {
+    color: rgb(209, 209, 209);
+  }
+
   .footer__link:hover {
     color: whitesmoke;
   }
@@ -154,7 +176,8 @@
     font-size: 23px;
   }
 
-  .footer__social-network-button:hover {
+  .footer__social-network-button:hover,
+  .footer__social-network-button:focus {
     color: white;
   }
 

@@ -34,12 +34,23 @@
   margin-right: 30px;
   padding: 17px;
 
+  transition: box-shadow 200ms;
   text-decoration: none;
 
   border-radius: 50%;
   background-color: white;
 
   appearance: button;
+}
+
+.contacts__social-network-button:hover {
+  box-shadow: 0 8px 6px -6px gray;
+}
+
+.contacts__social-network-button:focus,
+.contacts__social-network-button:active {
+  outline: none;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .contacts__social-network-button:last-of-type {
@@ -76,6 +87,8 @@
   margin-bottom: 20px;
   padding: 20px 0 3px 0;
 
+  transition: border-bottom 200ms;
+
   border: none;
   border-bottom: 1px solid #c9bab9;
   outline: none;
@@ -83,6 +96,13 @@
 
   font-family: 'Arsenal', sans-serif;
   font-size: 14px;
+}
+
+.contacts__form-input:hover,
+.contacts__form-input:focus,
+.contacts__form-textarea:hover,
+.contacts__form-textarea:focus {
+  border-bottom: 1px solid #a38c8a;
 }
 
 .contacts__form-input::placeholder,
@@ -122,6 +142,14 @@
 .contacts__link:hover,
 .contacts__phone:hover {
   color: var(--primary-color);
+}
+
+.contacts__link:focus,
+.contacts__phone:focus {
+  text-decoration: underline;
+
+  color: var(--primary-color);
+  outline: none;
 }
 
 @media only screen and (max-width: 1365px) {
@@ -171,6 +199,8 @@
     margin-bottom: 10px;
     padding: 15px 10px;
 
+    transition: box-shadow 200ms;
+
     border: 1px solid white;
     border-radius: 5px;
     outline: none;
@@ -178,6 +208,18 @@
 
     font-family: 'Arsenal', sans-serif;
     font-size: 14px;
+  }
+
+  .contacts__form-input:hover,
+  .contacts__form-textarea:hover {
+    border-bottom: 1px solid white;
+    box-shadow: 0 5px 6px -6px gray;
+  }
+
+  .contacts__form-input:focus,
+  .contacts__form-textarea:focus {
+    border-bottom: 1px solid white;
+    box-shadow: 0 5px 6px -6px black;
   }
 
   .contacts__form-input::placeholder,
