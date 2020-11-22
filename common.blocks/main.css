@@ -1,15 +1,19 @@
 .main {
   width: 100%;
+}
 
-  background-color: var(--primary-background);
-  background-image: url('../../images/desktop/img2.png');
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: contain;
+@media only screen and (max-width: 1365px) {
+  .main {
+    background-color: var(--primary-background);
+    background-image: url('../../images/cake-tablet.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .main {
-    background-image: url('../../images/mobile/img2.png');
+    background-image: none;
   }
 }
