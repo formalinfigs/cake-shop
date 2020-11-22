@@ -1,18 +1,38 @@
 .choose-cake {
+  position: relative;
+
+  overflow: hidden;
+
   width: 100%;
-  padding-bottom: 237px;
+  min-height: 968px;
+  margin-bottom: -88px;
+  padding-top: 126px;
 
   color: #2e2829;
 
   font-family: 'Arsenal', sans-serif;
 }
 
+.choose-cake::before {
+  position: absolute;
+  top: 0;
+
+  width: 1603px;
+  height: 968px;
+
+  content: '';
+
+  background-image: url('../images/cake.png'), url('../images/sliced-strawberry.png'), url('../images/strawberry.png'),
+    url('../images/raspberry.png');
+  background-repeat: no-repeat;
+  background-position: top -23px right -35px, top 42px right 852px, top 374px right 974px, top 208px right 909px;
+  background-size: 968px, 111px, 200px, 114px;
+}
+
 .choose-cake__wrapper {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-
-  padding-top: 92px;
 }
 
 .choose-cake__header {
@@ -50,12 +70,17 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1365px) {
   .choose-cake {
+    height: auto;
     min-height: auto;
     margin-bottom: 135px;
     padding-top: 102px;
     padding-bottom: 0;
 
-    background-position: revert;
+    background-color: transparent;
+  }
+
+  .choose-cake::before {
+    content: none;
   }
 
   .choose-cake__header {
@@ -86,8 +111,21 @@
 
 @media only screen and (max-width: 767px) {
   .choose-cake {
+    min-height: auto;
     margin-bottom: 17px;
+    padding-top: 0;
     padding-bottom: 0;
+
+    background-image: url('../images/cake.png');
+    background-repeat: no-repeat;
+    background-position: center -164px;
+    background-size: 337px;
+  }
+
+  .choose-cake::before {
+    content: none;
+
+    /* background image attached to the .main */
   }
 
   .choose-cake__wrapper {
@@ -122,7 +160,9 @@
     flex-direction: column;
 
     width: 100%;
+    max-width: 275px;
     margin-bottom: 35px;
+    padding-right: 45px;
   }
 
   .choose-cake__benefits-item {
