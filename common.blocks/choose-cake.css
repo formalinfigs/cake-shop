@@ -16,9 +16,12 @@
 .choose-cake::before {
   position: absolute;
   top: 0;
+  right: 0;
+  left: 0;
 
   width: 1603px;
   height: 968px;
+  margin: 0 auto;
 
   content: '';
 
