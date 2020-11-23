@@ -109,6 +109,7 @@
 
     width: 100%;
     margin: 0;
+    padding: 0 50px;
 
     transform: scale(1, 0);
     transform-origin: top;
@@ -120,6 +121,7 @@
 
   .header__navigation-item {
     margin-bottom: 1em;
+    margin-left: 0;
   }
 
   .header__navigation-toggle-label {
@@ -154,7 +156,7 @@
 
 @media only screen and (max-width: 767px) {
   .header {
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px;
   }
 
   .header__logo {
@@ -165,7 +167,11 @@
     display: none;
   }
 
+  .header__navigation {
+    padding: 0 20px;
+  }
+
   .header__navigation-item {
-    margin: 0 20px 15px;
+    margin: 0 0 10px;
   }
 }
