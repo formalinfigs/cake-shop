@@ -14,7 +14,7 @@
   display: grid;
   justify-content: center;
 
-  margin: 0 auto 58px;
+  margin: 0 auto 45px;
 
   grid-gap: 45px 50px;
   grid-auto-flow: dense;

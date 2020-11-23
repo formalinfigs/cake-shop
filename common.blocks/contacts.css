@@ -4,11 +4,10 @@
   padding-bottom: 70px;
 
   background-color: var(--primary-background);
-  background-image: url('../images/desktop/strawberries.png');
+  background-image: url('../images/desktop/strawberries.jpg');
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: center;
   background-position-y: bottom;
-  background-size: contain;
 
   font-family: 'Arsenal', sans-serif;
   font-size: 20px;
@@ -157,6 +156,10 @@
     min-height: auto;
     padding-top: 45px;
     padding-bottom: 80px;
+
+    background-position-x: right;
+    background-size: contain;
+    /* background-position-y: bottom; */
 
     font-size: 14px;
   }
