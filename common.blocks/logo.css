@@ -1,0 +1,29 @@
+.logo {
+  text-decoration: none;
+  letter-spacing: 1px;
+
+  color: inherit;
+
+  font: bold 23px 'Playfair Display', serif;
+}
+
+.logo:hover {
+  color: var(--primary-color);
+}
+
+.logo:focus {
+  color: var(--primary-color);
+  outline: none;
+}
+
+@media only screen and (max-width: 1365px) {
+  .logo {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    font-size: 15px;
+  }
+}
