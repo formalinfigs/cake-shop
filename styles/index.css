@@ -6,6 +6,9 @@
 
 @import url('./icomoon.css');
 
+@import url('../common.blocks/collapsable-navigation.css');
+@import url('../common.blocks/logo.css');
+@import url('../common.blocks/header-navigation.css');
 @import url('../common.blocks/instruction.css');
 @import url('../common.blocks/instructions-list.css');
 @import url('../common.blocks/benefit.css');

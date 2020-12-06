@@ -18,33 +18,12 @@
   justify-content: space-between;
 }
 
-.header__navigation,
 .header__phone-number {
   margin: 10px 0 0;
 }
 
-.header__navigation-toggle-label {
-  display: none;
-}
-
-.header__navigation-toggle-label:hover,
-.header__navigation-toggle-label:focus {
-  color: var(--primary-color);
-}
-
-.header__navigation-item {
-  margin-left: 45px;
-}
-
-.header__link {
-  letter-spacing: 1.15px;
-
-  opacity: 1;
-}
-
-.header__list {
-  display: flex;
-  align-items: center;
+.header__navigation {
+  margin: 10px 0 0 45px;
 }
 
 .header__phone-number {
@@ -68,28 +47,6 @@
   outline: none;
 }
 
-.header__logo {
-  text-decoration: none;
-  letter-spacing: 1px;
-
-  color: inherit;
-
-  font: bold 23px 'Playfair Display', serif;
-}
-
-.header__logo:hover {
-  color: var(--primary-color);
-}
-
-.header__logo:focus {
-  color: var(--primary-color);
-  outline: none;
-}
-
-.header__navigation-toggle {
-  display: none;
-}
-
 @media only screen and (max-width: 1365px) {
   .header {
     margin: 0;
@@ -98,59 +55,12 @@
     background-color: white;
   }
 
-  .header__logo {
-    font-size: 20px;
-  }
-
   .header__navigation {
-    position: absolute;
-    top: 99%;
-    left: 0;
-
-    width: 100%;
-    margin: 0;
-    padding: 0 50px;
-
-    transform: scale(1, 0);
-    transform-origin: top;
+    margin: 0 0 0 26px;
   }
 
   .header__phone-number {
     margin: 0 0 0 auto;
-  }
-
-  .header__navigation-item {
-    margin-bottom: 1em;
-    margin-left: 0;
-  }
-
-  .header__navigation-toggle-label {
-    display: block;
-
-    margin-left: 26px;
-
-    cursor: pointer;
-  }
-
-  .header__list {
-    display: block;
-  }
-
-  .header__link {
-    transition: opacity 150ms ease-in-out;
-
-    opacity: 0;
-  }
-
-  .header__navigation-toggle:checked ~ .header__navigation {
-    transition: transform 350ms ease-in-out;
-    transform: scale(1, 1);
-  }
-
-  .header__navigation-toggle:checked ~ .header__navigation .header__link {
-    transition: opacity 250ms ease-in-out 250ms;
-
-    opacity: 1;
   }
 }
 
@@ -159,19 +69,11 @@
     padding: 10px 20px;
   }
 
-  .header__logo {
-    font-size: 15px;
-  }
-
   .header__phone-number {
     display: none;
   }
 
   .header__navigation {
-    padding: 0 20px;
-  }
-
-  .header__navigation-item {
-    margin: 0 0 10px;
+    margin: 0;
   }
 }
