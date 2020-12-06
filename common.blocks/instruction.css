@@ -1,0 +1,41 @@
+.instruction {
+  font-family: 'Arsenal', sans-serif;
+}
+
+.instruction__header {
+  display: block;
+
+  margin-bottom: 10px;
+
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.instruction__info {
+  display: inline-block;
+
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1365px) {
+  .instruction__header {
+    font-size: 15px;
+  }
+
+  .instruction__info {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .instruction__header {
+    margin-bottom: 9px;
+
+    font-size: 15px;
+  }
+
+  .instruction__info {
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
