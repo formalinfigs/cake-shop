@@ -1,0 +1,48 @@
+.instructions-list {
+  counter-reset: instruction-list;
+}
+
+.instructions-list__item {
+  display: flex;
+
+  margin-bottom: 40px;
+}
+
+.instructions-list__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.instructions-list__item:before {
+  min-width: 30px;
+  margin-top: -30px;
+  margin-right: 20px;
+
+  content: counter(instruction-list) ' ';
+  counter-increment: instruction-list;
+
+  font: bold 64px 'Playfair Display', serif;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1365px) {
+  .instructions-list__item:before {
+    min-width: 30px;
+    margin-top: -16px;
+    margin-right: 10px;
+
+    font: bold 36px 'Playfair Display', serif;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .instructions-list__item {
+    margin-bottom: 23px;
+  }
+
+  .instructions-list__item:before {
+    min-width: 28px;
+    margin-top: -14px;
+    margin-right: 0;
+
+    font: bold 30px 'Playfair Display', serif;
+  }
+}
